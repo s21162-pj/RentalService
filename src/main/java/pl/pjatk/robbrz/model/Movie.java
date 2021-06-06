@@ -5,7 +5,7 @@ public class Movie {
     private Long id;
     private String name;
     private Category category;
-    private boolean available = false;
+    private boolean available;
 
     public Movie(Long id, String name, Category category, boolean available) {
         this.id = id;
