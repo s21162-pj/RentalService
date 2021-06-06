@@ -1,14 +1,9 @@
 package pl.pjatk.robbrz.model;
 
-import javax.persistence.*;
 
-@Entity
 public class Movie {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @Enumerated(EnumType.STRING)
     private Category category;
     private boolean available = false;
 
