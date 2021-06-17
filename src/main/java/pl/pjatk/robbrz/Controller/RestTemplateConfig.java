@@ -1,4 +1,5 @@
 package pl.pjatk.robbrz.Controller;
+import pl.pjatk.robbrz.Service.RentalService;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
